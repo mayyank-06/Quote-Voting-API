@@ -38,3 +38,12 @@ Server runs at: http://localhost:3000/api/quotes
 | PUT    | /api/quotes/\:id/upvote   | Upvote a quote     |
 | PUT    | /api/quotes/\:id/downvote | Downvote a quote   |
 | DELETE | /api/quotes/\:id          | Delete a quote     |
+
+
+## 🧪 Sample Request
+POST /api/quotes
+{
+  "text": "Talk is cheap. Show me the code.",
+  "author": "Linus Torvalds"
+}
+
